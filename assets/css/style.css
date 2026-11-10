@@ -1,0 +1,25 @@
+.bg-purple {
+    background-color: #7533F9 !important;
+}
+
+.text-purple {
+    color: #7533F9 !important;
+}
+
+#hero a {
+    color: gray;
+}
+
+#hero a:hover {
+    color: rgb(73, 73, 73);
+}
+
+#footer a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.65);
+}
+
+#footer a:hover {
+    text-decoration: underline;
+    color: #ffffff !important;
+}

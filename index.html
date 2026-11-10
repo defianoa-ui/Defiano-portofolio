@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio - Defiano Arya Putra</title>
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css">
+    <!-- Bootstrap Icons CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <!-- Navbar Section -->
+    <nav class="navbar fixed-top navbar-expand-lg bg-purple" data-bs-theme="dark">
+        <div class="container py-2 px-4">
+            <a href="#" class="navbar-brand fw-bold fs-4">
+                <i class="bi bi-person-badge me-2"></i>Portofolio
+            </a>
+            
+            <button type="button" class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="offcanvas offcanvas-end bg-purple" id="offcanvasNavbar">
+                <div class="offcanvas-header pb-0 px-4">
+                    <h5 class="offcanvas-title text-white">Menu</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body pt-0 px-4">
+                    <hr class="d-md-none text-white-50">
+                    <ul class="navbar-nav flex-row flex-wrap ms-auto">
+                        <li class="nav-item col-6 col-md-auto"><a href="#hero" class="nav-link active">Home</a></li>
+                        <li class="nav-item col-6 col-md-auto"><a href="#biodata" class="nav-link">Biodata</a></li>
+                        <li class="nav-item col-6 col-md-auto"><a href="#projects" class="nav-link">Proyek</a></li>
+                        <li class="nav-item col-6 col-md-auto"><a href="#footer" class="nav-link">Kontak</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero / Main Section -->
+    <div class="bg-light mt-5" id="hero">
+        <div class="container py-5 px-4">
+            <div class="row align-items-center py-4">
+                <div class="col-md-5 order-md-2 text-center mb-4 mb-md-0">
+                    <!-- Perbaikan pada tag img untuk file .jpeg -->
+                    <img class="img-fluid rounded-circle shadow" src="assets/css/images/foto.jpeg" alt="Defiano Arya Putra" style="width: 280px; height: 280px; object-fit: cover;">
+                </div>
+                <div class="col-md-7 order-md-1">
+                    <span class="badge bg-purple mb-2 px-3 py-2 fs-6">Sistem Informasi</span>
+                    <h1 class="mt-2 display-4 fw-bold">Halo, Saya Defiano Arya Putra</h1>
+                    <p class="fs-5 mt-3 text-secondary">
+                        Mahasiswa Sistem Informasi yang berfokus pada pengembangan aplikasi web modern, responsif, dan ramah pengguna.
+                    </p>
+                    <div class="d-flex flex-column flex-md-row mt-4">
+                        <a href="#projects" class="btn bg-purple text-white btn-lg mb-3 me-md-3 px-4 py-2">Lihat Proyek</a>
+                        <a href="#biodata" class="btn btn-outline-dark btn-lg mb-3 px-4 py-2">Detail Identitas</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Biodata Section -->
+    <div id="biodata">
+        <div class="container py-5 px-4">
+            <div class="text-center mb-5">
+                <h2 class="display-6 fw-bold">Informasi Akademik</h2>
+                <p class="text-muted">Detail identitas mahasiswa Telkom University Surabaya</p>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm p-3">
+                        <div class="card-body text-center">
+                            <i class="bi bi-person-circle fs-1 text-purple mb-3"></i>
+                            <h5 class="card-title text-muted">Nama Lengkap</h5>
+                            <p class="card-text fs-5 fw-bold text-dark">Defiano Arya Putra</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm p-3">
+                        <div class="card-body text-center">
+                            <i class="bi bi-card-heading fs-1 text-purple mb-3"></i>
+                            <h5 class="card-title text-muted">NIM</h5>
+                            <p class="card-text fs-5 fw-bold text-dark">108052500039</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm p-3">
+                        <div class="card-body text-center">
+                            <i class="bi bi-building fs-1 text-purple mb-3"></i>
+                            <h5 class="card-title text-muted">Kelas</h5>
+                            <p class="card-text fs-5 fw-bold text-dark">IS0803</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Proyek Section -->
+    <div id="projects" class="bg-light">
+        <div class="container py-5 px-4">
+            <div class="text-center mb-5">
+                <h2 class="display-6 fw-bold">Proyek & Praktikum</h2>
+                <p class="text-muted">Kumpulan tugas dan pengembangan aplikasi web</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body p-4">
+                            <div class="mb-3">
+                                <i class="bi bi-bootstrap-fill fs-2 bg-purple py-2 px-3 rounded-3 text-white"></i>
+                            </div>
+                            <h3 class="h4 fw-bold">Cloning Web Bootstrap</h3>
+                            <p class="text-secondary">
+                                Mengimplementasikan komponen Bootstrap 5 seperti Navbar, Offcanvas, Grid System, dan Card untuk membangun layout yang responsif.
+                            </p>
+                            <a class="icon-link icon-link-hover lead fw-semibold" href="#">
+                                Selengkapnya <i class="bi bi-arrow-right mb-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="card border-0 shadow-sm h-100">
+                        <div class="card-body p-4">
+                            <div class="mb-3">
+                                <i class="bi bi-code-slash fs-2 bg-info py-2 px-3 rounded-3 text-white"></i>
+                            </div>
+                            <h3 class="h4 fw-bold">Pengembangan Aplikasi Web</h3>
+                            <p class="text-secondary">
+                                Pembuatan antarmuka web statis menggunakan HTML5, CSS3, serta integrasi pustaka ikon Bootstrap Icons.
+                            </p>
+                            <a class="icon-link icon-link-hover lead fw-semibold" href="#">
+                                Selengkapnya <i class="bi bi-arrow-right mb-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div id="footer" class="bg-dark text-white py-5">
+        <div class="container py-4 px-4">
+            <div class="row g-4">
+                <div class="col-lg-6 mb-3">
+                    <h5 class="fw-bold mb-3">Defiano Arya Putra</h5>
+                    <p class="text-white-50">
+                        Program Studi S1 Sistem Informasi<br>
+                        Telkom University Surabaya
+                    </p>
+                    <small class="text-white-50">&copy; 2026 Defiano Arya Putra. All rights reserved.</small>
+                </div>
+                <div class="col-6 col-lg-3 mb-3">
+                    <h5 class="fw-bold mb-3">Navigasi</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#hero" class="text-white-50">Home</a></li>
+                        <li class="mb-2"><a href="#biodata" class="text-white-50">Biodata</a></li>
+                        <li class="mb-2"><a href="#projects" class="text-white-50">Proyek</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-3 mb-3">
+                    <h5 class="fw-bold mb-3">Kontak</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-white-50"><i class="bi bi-github me-2"></i>GitHub</a></li>
+                        <li class="mb-2"><a href="#" class="text-white-50"><i class="bi bi-linkedin me-2"></i>LinkedIn</a></li>
+                        <li class="mb-2"><a href="#" class="text-white-50"><i class="bi bi-envelope me-2"></i>Email</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
